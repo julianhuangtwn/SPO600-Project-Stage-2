@@ -1,0 +1,8 @@
+clone-test-core.c: In function ‘scale_samples.rng’:
+clone-test-core.c:28:6: note: PRUNE: scale_samples.rng
+   28 | void scale_samples(int16_t *in, int16_t *out, int cnt, int volume) {
+      |      ^~~~~~~~~~~~~
+clone-test-core.c: In function ‘scale_samples.sve2’:
+clone-test-core.c:28:6: note: NOPRUNE: scale_samples.sve2
+   28 | void scale_samples(int16_t *in, int16_t *out, int cnt, int volume) {
+      |      ^~~~~~~~~~~~~
